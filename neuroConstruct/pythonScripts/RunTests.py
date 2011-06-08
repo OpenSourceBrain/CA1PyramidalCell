@@ -30,7 +30,6 @@ import ncutils as nc # Many useful functions such as SimManager.runMultipleSims 
 
 projFile = File(os.getcwd(), "../CA1PyramidalCell.ncx")
 
-
 ##############  Main settings  ##################
 
 simConfigs = []
