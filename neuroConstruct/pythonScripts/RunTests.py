@@ -30,7 +30,6 @@ import ncutils as nc # Many useful functions such as SimManager.runMultipleSims 
 
 projFile = File(os.getcwd(), "../CA1PyramidalCell.ncx")
 
-
 ##############  Main settings  ##################
 
 simConfigs = []
@@ -40,7 +39,7 @@ simConfigs.append("Default Simulation Configuration")
 
 simDt =                 0.002
 
-simulators =            ["NEURON", "GENESIS", "MOOSE", "PSICS"]
+simulators =            ["NEURON", "GENESIS_PHYS", "GENESIS_SI", "MOOSE_PHYS", "MOOSE_SI", "PSICS"]
 
 numConcurrentSims =     4
 
