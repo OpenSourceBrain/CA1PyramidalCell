@@ -1,4 +1,8 @@
-GitHub repository for an OSB project containing a CA1 Pyramidal cell: http://www.opensourcebrain.org:8080/projects/ca1pyramidalcell
+Conversion of hippocampal CA1 pyramidal cell from Migliore et al 2005: 
+http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=55035. 
+This model can currently be executed in NEURON, GENESIS, MOOSE and PSICS.
+
+See: http://www.opensourcebrain.org/projects/ca1pyramidalcell for more.
 
 Moved here from the original Hg repository on OSB
 
