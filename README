@@ -1,9 +1,10 @@
 Conversion of hippocampal CA1 pyramidal cell from Migliore et al 2005: 
 http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=55035. 
+
 This model can currently be executed in NEURON, GENESIS, MOOSE and PSICS.
 
-See: http://www.opensourcebrain.org/projects/ca1pyramidalcell for more.
+See: http://www.opensourcebrain.org/projects/ca1pyramidalcell for more details.
 
-Moved here from the original Hg repository on OSB
+Project moved here from the original Hg repository on OSB
 
  
