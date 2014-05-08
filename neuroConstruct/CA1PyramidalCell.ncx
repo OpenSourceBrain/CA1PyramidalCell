@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_24" class="java.beans.XMLDecoder">
+<java version="1.7.0_55" class="java.beans.XMLDecoder">
 
 <!-- This is a neuroConstruct project file. It's best to open this
 file with neuroConstruct, as opposed to editing it directly. 
@@ -26,7 +26,7 @@ SimConfig CA1Cell-RecordSegs will record voltage in ALL sections in the large ce
 </string>
   </void>
   <void property="projectFileVersion">
-   <string>neuroConstruct v1.6.1</string>
+   <string>neuroConstruct v1.7.1</string>
   </void>
   <void property="projectName">
    <string>CA1PyramidalCell</string>
@@ -56,9 +56,13 @@ SimConfig CA1Cell-RecordSegs will record voltage in ALL sections in the large ce
     <void method="add">
      <object class="ucl.physiol.neuroconstruct.project.RectangularBox">
       <void property="parameterList">
-       <void index="4">
-        <void property="value">
-         <float>50.0</float>
+       <void id="InternalParameter0" index="4">
+        <void class="ucl.physiol.neuroconstruct.project.InternalParameter" method="getField">
+         <string>value</string>
+         <void method="set">
+          <object idref="InternalParameter0"/>
+          <float>50.0</float>
+         </void>
         </void>
        </void>
       </void>
@@ -1498,11 +1502,11 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
     <string></string>
    </void>
    <void method="put">
-    <float>1.0</float>
+    <float>-1.0</float>
     <string></string>
    </void>
    <void method="put">
-    <float>-1.0</float>
+    <float>1.0</float>
     <string></string>
    </void>
    <void method="put">
@@ -1572,9 +1576,13 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
      <void property="cellGroup">
       <string>CG_CML</string>
      </void>
-     <void property="dur">
-      <void property="numberType">
-       <int>11</int>
+     <void id="NumberGenerator0" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator0"/>
+        <int>11</int>
+       </void>
       </void>
      </void>
      <void property="reference">
@@ -1592,9 +1600,13 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
      <void property="cellGroup">
       <string>CG_mod</string>
      </void>
-     <void property="dur">
-      <void property="numberType">
-       <int>11</int>
+     <void id="NumberGenerator1" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator1"/>
+        <int>11</int>
+       </void>
       </void>
      </void>
      <void property="reference">
@@ -1617,12 +1629,16 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
        <float>2.0</float>
       </void>
      </void>
-     <void property="dur">
+     <void id="NumberGenerator2" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator2"/>
+        <int>11</int>
+       </void>
+      </void>
       <void property="fixedNum">
        <float>5.0</float>
-      </void>
-      <void property="numberType">
-       <int>11</int>
       </void>
      </void>
      <void property="reference">
@@ -1640,9 +1656,13 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
      <void property="cellGroup">
       <string>CG_CML_One</string>
      </void>
-     <void property="dur">
-      <void property="numberType">
-       <int>11</int>
+     <void id="NumberGenerator3" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator3"/>
+        <int>11</int>
+       </void>
       </void>
      </void>
      <void property="reference">
@@ -1660,9 +1680,13 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
      <void property="cellGroup">
       <string>CG_mod_One</string>
      </void>
-     <void property="dur">
-      <void property="numberType">
-       <int>11</int>
+     <void id="NumberGenerator4" property="dur">
+      <void class="ucl.physiol.neuroconstruct.utils.NumberGenerator" method="getField">
+       <string>numberType</string>
+       <void method="set">
+        <object idref="NumberGenerator4"/>
+        <int>11</int>
+       </void>
       </void>
      </void>
      <void property="reference">
