@@ -5,5 +5,5 @@ This model can currently be executed in simulators: NEURON, GENESIS, MOOSE and P
 
 See: http://www.opensourcebrain.org/projects/ca1pyramidalcell for more details.
 
-
+[![Build Status](https://travis-ci.org/OpenSourceBrain/CA1PyramidalCell.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/CA1PyramidalCell)
  
