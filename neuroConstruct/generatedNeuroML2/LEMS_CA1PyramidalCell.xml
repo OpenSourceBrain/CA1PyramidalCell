@@ -1,0 +1,58 @@
+<Lems xmlns="http://www.neuroml.org/lems/0.7.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.2  https://raw.githubusercontent.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.2.xsd">
+
+    <Target component="sim1" reportFile="simulator.props" timesFile="time.dat"/>
+
+        <!--Include standard NeuroML 2 ComponentType definitions-->
+
+    <Include file="Cells.xml"/>
+    <Include file="Networks.xml"/>
+    <Include file="Simulation.xml"/>
+
+    
+
+        <!--Include the generated NeuroML 2 files-->
+
+
+        <!--   Channel/synapse files-->
+    <Include file="hd.channel.nml"/>
+    <Include file="hd__vhalflmin73.channel.nml"/>
+    <Include file="kad.channel.nml"/>
+    <Include file="kap.channel.nml"/>
+    <Include file="kdr.channel.nml"/>
+    <Include file="na3.channel.nml"/>
+    <Include file="nax.channel.nml"/>
+    <Include file="pasCA1.channel.nml"/>
+        <!--   Cell files-->
+    <Include file="SomaOnly_allCml.cell.nml"/>
+        <!--   Network file-->
+    <Include file="CA1PyramidalCell.net.nml"/>
+    
+
+        <!--Note: this could be: Simulation id="sim1" ... , but Component type="Simulation" ... 
+        is used to allow validation of this file according to the LEMS schema specified above...-->
+    <Component type="Simulation" id="sim1" length="100.0ms" step="0.002ms" target="network_CA1PyramidalCell">
+        
+        <Display id="GraphWin_3" title="CA1PyramidalCell: Default Simulation Configuration, CG_CML, VOLTAGE" xmin="-0.010000001" xmax="0.11000001" ymin="-0.104" ymax="0.064" timeScale="1s">
+            <Line id="v" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/v" scale="1 V" color="#000000"/>
+        </Display>
+    
+        <Display id="GraphWin_0" title="CA1PyramidalCell: Default Simulation Configuration, CG_CML, kad:n, kad:l, na3:m, na3:h, hd:l, nax:m, nax:h" xmin="-0.010000001" xmax="0.11000001" ymin="-0.1" ymax="1.1" timeScale="1s">
+            <Line id="kad_n" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/kad_all/kad/n/q" scale="1" color="#000000"/>
+        
+            <Line id="kad_l" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/kad_all/kad/l/q" scale="1" color="#ff0000"/>
+        
+            <Line id="na3_m" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/na3_all/na3/m/q" scale="1" color="#0000ff"/>
+        
+            <Line id="na3_h" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/na3_all/na3/h/q" scale="1" color="#009b00"/>
+        
+            <Line id="hd_l" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/hd_all/hd__vhalflmin73/l/q" scale="1" color="#ffc800"/>
+        
+            <Line id="nax_m" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/nax_all/nax/m/q" scale="1" color="#8c6400"/>
+        
+            <Line id="nax_h" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/nax_all/nax/h/q" scale="1" color="#ff00ff"/>
+        </Display>
+    
+    </Component>
+
+
+</Lems>

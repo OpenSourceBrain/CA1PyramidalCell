@@ -1,3 +1,7 @@
+*.mod
+*nrn.py
+/neuroConstruct/generatedNeuroML/README
+*~
 *.svg
 *.pyc
 *i686
