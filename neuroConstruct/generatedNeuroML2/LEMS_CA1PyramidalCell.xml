@@ -51,6 +51,12 @@
         
             <Line id="nax_h" timeScale="1s" quantity="CG_CML/0/SomaOnly_allCml/biophys/membraneProperties/nax_all/nax/h/q" scale="1" color="#ff00ff"/>
         </Display>
+        
+            
+        <OutputFile id="CG_CML_v_0_0_OF" fileName="CG_CML_0.0.dat">
+            <OutputColumn id="v" quantity="CG_CML/0/SomaOnly_allCml/v"/>
+        </OutputFile>
+
     
     </Component>
 

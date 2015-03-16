@@ -7,9 +7,10 @@ python: 2.7
 env:
     - OMV_ENGINE=jNeuroML_validate
     - OMV_ENGINE=jNeuroML_validatev1
+    - OMV_ENGINE=jNeuroML
 
 install: 
-    - pip install git+https://github.com/OpenSourceBrain/osb-model-validation@test_new_backends
+    - pip install git+https://github.com/OpenSourceBrain/osb-model-validation
 
 script:
     - omv all
