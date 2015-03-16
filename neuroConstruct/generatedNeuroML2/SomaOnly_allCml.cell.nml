@@ -76,7 +76,7 @@
                 
                 <channelDensity condDensity="10.0 mS_per_cm2" id="kdr_all" ionChannel="kdr" ion="k" erev="-90.0 mV"/>
                 
-                <channelDensity condDensity="25.0 mS_per_cm2" id="na3_all" ionChannel="na3" segmentGroup="soma_group" ion="na" erev="50.0 mV"/>
+                <channelDensity condDensity="25.0 mS_per_cm2" id="na3_all" ionChannel="na3" ion="na" erev="50.0 mV"/>
                 
                 <channelDensity condDensity="125.0 mS_per_cm2" id="nax_all" ionChannel="nax" ion="na" erev="50.0 mV"/>
                 

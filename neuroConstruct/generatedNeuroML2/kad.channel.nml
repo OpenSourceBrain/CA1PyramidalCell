@@ -106,10 +106,7 @@
             <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>
             <DerivedVariable name="ALPHA" dimension="none" value="alpha * TIME_SCALE"/>
             <DerivedVariable name="BETA" dimension="none" value="beta * TIME_SCALE"/>
-            <ConditionalDerivedVariable name="x" exposure="x" dimension="none"> <!--value="1/(1 + ALPHA)" valueCondition="(alpha + beta) .neq. 0" valueIfFalse="0"/>-->
-                <Case condition="(ALPHA + BETA) .eq. 0" value="( 0 ) * TIME_SCALE"/>
-			<Case value="1/(1 + ALPHA)"/>
-            </ConditionalDerivedVariable>
+            <DerivedVariable name="x" exposure="x" dimension="none" value="1/(1 + ALPHA)"/>
         </Dynamics>
 
     </ComponentType>

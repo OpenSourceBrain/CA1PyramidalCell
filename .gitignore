@@ -1,6 +1,8 @@
+/neuroConstruct/cellMechanisms/kad/KChannel_output.xml
 *.mod
 *nrn.py
 /neuroConstruct/generatedNeuroML/README
+neuroConstruct/ggg
 *~
 *.svg
 *.pyc
