@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  http://neuroml.svn.sourceforge.net/viewvc/neuroml/NeuroML2/Schemas/NeuroML2/NeuroML_v2alpha.xsd" id="CA1">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="CA1">
 
-    <include href="kap.nml"/>
+    <include href="hd__vhalflmin73.channel.nml"/>
 
-    <include href="hd.nml"/>
+    <include href="hd__vhalflmin81.channel.nml"/>
 
-    <include href="nax.nml"/>
+    <include href="kap.channel.nml"/>
 
-    <include href="na3.nml"/>
+    <include href="kdr.channel.nml"/>
 
-    <include href="kdr.nml"/>
+    <include href="na3__ar1.channel.nml"/>
 
-    <include href="pas.nml"/>
+    <include href="nax.channel.nml"/>
 
-    <include href="kad.nml"/>
+    <include href="pas.channel.nml"/>
 
     <cell id="CA1">
 
@@ -11408,11 +11408,25 @@
                 <distal x="-50.57" y="518.06" z="-42.949" diameter="1.35"/>
             </segment>
 
-            <segmentGroup id="soma_0">
+            <segmentGroup id="soma_0" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="0"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_0">
+            <segmentGroup id="user5_0" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="1838"/>
             
                 <member segment="1839"/>
@@ -11424,13 +11438,27 @@
                 <member segment="1842"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_15">
+            <segmentGroup id="dendrite_15" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="283"/>
             
                 <member segment="284"/>
             </segmentGroup>
 
-            <segmentGroup id="axon_0">
+            <segmentGroup id="axon_0" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 17-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="17"/>
+                </annotation>
+            
                 <member segment="1"/>
             
                 <member segment="2"/>
@@ -11460,13 +11488,33 @@
                 <member segment="14"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_0">
+            <segmentGroup id="dendrite_0" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="16"/>
             
                 <member segment="17"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_57">
+            <segmentGroup id="apical_dendrite_57" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="1700"/>
             
                 <member segment="1701"/>
@@ -11476,7 +11524,11 @@
                 <member segment="1703"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_1">
+            <segmentGroup id="user5_1" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1843"/>
             
                 <member segment="1844"/>
@@ -11484,7 +11536,17 @@
                 <member segment="1845"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_47">
+            <segmentGroup id="dendrite_47" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="772"/>
             
                 <member segment="773"/>
@@ -11502,13 +11564,27 @@
                 <member segment="779"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_16">
+            <segmentGroup id="dendrite_16" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="285"/>
             
                 <member segment="286"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_6">
+            <segmentGroup id="dendrite_6" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="139"/>
             
                 <member segment="140"/>
@@ -11516,7 +11592,17 @@
                 <member segment="141"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_1">
+            <segmentGroup id="dendrite_1" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="18"/>
             
                 <member segment="19"/>
@@ -11532,7 +11618,17 @@
                 <member segment="24"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_65">
+            <segmentGroup id="apical_dendrite_65" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="1785"/>
             
                 <member segment="1786"/>
@@ -11544,13 +11640,27 @@
                 <member segment="1789"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_58">
+            <segmentGroup id="apical_dendrite_58" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1704"/>
             
                 <member segment="1705"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_54">
+            <segmentGroup id="apical_dendrite_54" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="1658"/>
             
                 <member segment="1659"/>
@@ -11560,11 +11670,25 @@
                 <member segment="1661"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_2">
+            <segmentGroup id="user5_2" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1846"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_49">
+            <segmentGroup id="dendrite_49" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 14-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="14"/>
+                </annotation>
+            
                 <member segment="797"/>
             
                 <member segment="798"/>
@@ -11590,7 +11714,17 @@
                 <member segment="808"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_48">
+            <segmentGroup id="dendrite_48" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 21-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="21"/>
+                </annotation>
+            
                 <member segment="780"/>
             
                 <member segment="781"/>
@@ -11626,7 +11760,17 @@
                 <member segment="796"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_34">
+            <segmentGroup id="dendrite_34" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="588"/>
             
                 <member segment="589"/>
@@ -11634,7 +11778,17 @@
                 <member segment="590"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_17">
+            <segmentGroup id="dendrite_17" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="287"/>
             
                 <member segment="288"/>
@@ -11646,7 +11800,17 @@
                 <member segment="291"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_8">
+            <segmentGroup id="dendrite_8" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="172"/>
             
                 <member segment="173"/>
@@ -11660,7 +11824,17 @@
                 <member segment="177"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_7">
+            <segmentGroup id="dendrite_7" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 34-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="34"/>
+                </annotation>
+            
                 <member segment="142"/>
             
                 <member segment="143"/>
@@ -11722,7 +11896,17 @@
                 <member segment="171"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_5">
+            <segmentGroup id="dendrite_5" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 54-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="54"/>
+                </annotation>
+            
                 <member segment="90"/>
             
                 <member segment="91"/>
@@ -11822,7 +12006,17 @@
                 <member segment="138"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_2">
+            <segmentGroup id="dendrite_2" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="25"/>
             
                 <member segment="26"/>
@@ -11838,7 +12032,17 @@
                 <member segment="31"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_69">
+            <segmentGroup id="apical_dendrite_69" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 22-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="22"/>
+                </annotation>
+            
                 <member segment="1822"/>
             
                 <member segment="1823"/>
@@ -11872,7 +12076,17 @@
                 <member segment="1837"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_66">
+            <segmentGroup id="apical_dendrite_66" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="1790"/>
             
                 <member segment="1791"/>
@@ -11880,7 +12094,17 @@
                 <member segment="1792"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_62">
+            <segmentGroup id="apical_dendrite_62" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="1749"/>
             
                 <member segment="1750"/>
@@ -11892,7 +12116,17 @@
                 <member segment="1753"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_59">
+            <segmentGroup id="apical_dendrite_59" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 12-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="12"/>
+                </annotation>
+            
                 <member segment="1706"/>
             
                 <member segment="1707"/>
@@ -11920,7 +12154,17 @@
                 <member segment="1718"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_56">
+            <segmentGroup id="apical_dendrite_56" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 25-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="25"/>
+                </annotation>
+            
                 <member segment="1686"/>
             
                 <member segment="1687"/>
@@ -11950,7 +12194,17 @@
                 <member segment="1699"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_55">
+            <segmentGroup id="apical_dendrite_55" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 33-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="33"/>
+                </annotation>
+            
                 <member segment="1662"/>
             
                 <member segment="1663"/>
@@ -12000,13 +12254,33 @@
                 <member segment="1685"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_51">
+            <segmentGroup id="apical_dendrite_51" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="1610"/>
             
                 <member segment="1611"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_3">
+            <segmentGroup id="user5_3" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="1847"/>
             
                 <member segment="1848"/>
@@ -12030,7 +12304,17 @@
                 <member segment="1857"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_51">
+            <segmentGroup id="dendrite_51" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 31-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="31"/>
+                </annotation>
+            
                 <member segment="826"/>
             
                 <member segment="827"/>
@@ -12078,7 +12362,17 @@
                 <member segment="848"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_50">
+            <segmentGroup id="dendrite_50" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 26-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="26"/>
+                </annotation>
+            
                 <member segment="809"/>
             
                 <member segment="810"/>
@@ -12114,7 +12408,17 @@
                 <member segment="825"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_42">
+            <segmentGroup id="dendrite_42" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="689"/>
             
                 <member segment="690"/>
@@ -12124,7 +12428,17 @@
                 <member segment="692"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_35">
+            <segmentGroup id="dendrite_35" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="591"/>
             
                 <member segment="592"/>
@@ -12132,13 +12446,33 @@
                 <member segment="593"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_21">
+            <segmentGroup id="dendrite_21" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="349"/>
             
                 <member segment="350"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_18">
+            <segmentGroup id="dendrite_18" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 12-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="12"/>
+                </annotation>
+            
                 <member segment="292"/>
             
                 <member segment="293"/>
@@ -12162,7 +12496,17 @@
                 <member segment="302"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_12">
+            <segmentGroup id="dendrite_12" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 13-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="13"/>
+                </annotation>
+            
                 <member segment="233"/>
             
                 <member segment="234"/>
@@ -12188,7 +12532,17 @@
                 <member segment="244"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_9">
+            <segmentGroup id="dendrite_9" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="178"/>
             
                 <member segment="179"/>
@@ -12234,7 +12588,17 @@
                 <member segment="199"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_4">
+            <segmentGroup id="dendrite_4" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 47-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="47"/>
+                </annotation>
+            
                 <member segment="50"/>
             
                 <member segment="51"/>
@@ -12316,7 +12680,17 @@
                 <member segment="89"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_3">
+            <segmentGroup id="dendrite_3" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 22-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="22"/>
+                </annotation>
+            
                 <member segment="32"/>
             
                 <member segment="33"/>
@@ -12354,7 +12728,17 @@
                 <member segment="49"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_68">
+            <segmentGroup id="apical_dendrite_68" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 29-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="29"/>
+                </annotation>
+            
                 <member segment="1803"/>
             
                 <member segment="1804"/>
@@ -12394,7 +12778,17 @@
                 <member segment="1821"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_67">
+            <segmentGroup id="apical_dendrite_67" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 12-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="12"/>
+                </annotation>
+            
                 <member segment="1793"/>
             
                 <member segment="1794"/>
@@ -12416,7 +12810,17 @@
                 <member segment="1802"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_64">
+            <segmentGroup id="apical_dendrite_64" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 21-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="21"/>
+                </annotation>
+            
                 <member segment="1773"/>
             
                 <member segment="1774"/>
@@ -12442,7 +12846,17 @@
                 <member segment="1784"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_63">
+            <segmentGroup id="apical_dendrite_63" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 34-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="34"/>
+                </annotation>
+            
                 <member segment="1754"/>
             
                 <member segment="1755"/>
@@ -12482,7 +12896,17 @@
                 <member segment="1772"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_61">
+            <segmentGroup id="apical_dendrite_61" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="1736"/>
             
                 <member segment="1737"/>
@@ -12510,7 +12934,17 @@
                 <member segment="1748"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_60">
+            <segmentGroup id="apical_dendrite_60" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="1719"/>
             
                 <member segment="1720"/>
@@ -12546,7 +12980,17 @@
                 <member segment="1735"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_53">
+            <segmentGroup id="apical_dendrite_53" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 34-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="34"/>
+                </annotation>
+            
                 <member segment="1634"/>
             
                 <member segment="1635"/>
@@ -12596,7 +13040,17 @@
                 <member segment="1657"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_52">
+            <segmentGroup id="apical_dendrite_52" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 31-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="31"/>
+                </annotation>
+            
                 <member segment="1612"/>
             
                 <member segment="1613"/>
@@ -12642,7 +13096,17 @@
                 <member segment="1633"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_50">
+            <segmentGroup id="apical_dendrite_50" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 28-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="28"/>
+                </annotation>
+            
                 <member segment="1582"/>
             
                 <member segment="1583"/>
@@ -12700,11 +13164,25 @@
                 <member segment="1609"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_4">
+            <segmentGroup id="user5_4" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1858"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_46">
+            <segmentGroup id="dendrite_46" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 50-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="50"/>
+                </annotation>
+            
                 <member segment="739"/>
             
                 <member segment="740"/>
@@ -12772,7 +13250,17 @@
                 <member segment="771"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_43">
+            <segmentGroup id="dendrite_43" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 17-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="17"/>
+                </annotation>
+            
                 <member segment="693"/>
             
                 <member segment="694"/>
@@ -12800,7 +13288,17 @@
                 <member segment="705"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_39">
+            <segmentGroup id="dendrite_39" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="641"/>
             
                 <member segment="642"/>
@@ -12814,7 +13312,17 @@
                 <member segment="646"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_36">
+            <segmentGroup id="dendrite_36" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 14-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="14"/>
+                </annotation>
+            
                 <member segment="594"/>
             
                 <member segment="595"/>
@@ -12840,7 +13348,17 @@
                 <member segment="605"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_29">
+            <segmentGroup id="dendrite_29" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="500"/>
             
                 <member segment="501"/>
@@ -12854,13 +13372,33 @@
                 <member segment="505"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_22">
+            <segmentGroup id="dendrite_22" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="351"/>
             
                 <member segment="352"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_20">
+            <segmentGroup id="dendrite_20" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 39-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="39"/>
+                </annotation>
+            
                 <member segment="319"/>
             
                 <member segment="320"/>
@@ -12922,7 +13460,17 @@
                 <member segment="348"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_19">
+            <segmentGroup id="dendrite_19" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 21-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="21"/>
+                </annotation>
+            
                 <member segment="303"/>
             
                 <member segment="304"/>
@@ -12956,7 +13504,17 @@
                 <member segment="318"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_14">
+            <segmentGroup id="dendrite_14" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 31-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="31"/>
+                </annotation>
+            
                 <member segment="261"/>
             
                 <member segment="262"/>
@@ -13002,7 +13560,17 @@
                 <member segment="282"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_13">
+            <segmentGroup id="dendrite_13" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 22-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="22"/>
+                </annotation>
+            
                 <member segment="245"/>
             
                 <member segment="246"/>
@@ -13036,7 +13604,17 @@
                 <member segment="260"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_11">
+            <segmentGroup id="dendrite_11" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 24-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="24"/>
+                </annotation>
+            
                 <member segment="216"/>
             
                 <member segment="217"/>
@@ -13072,7 +13650,17 @@
                 <member segment="232"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_10">
+            <segmentGroup id="dendrite_10" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="200"/>
             
                 <member segment="201"/>
@@ -13106,7 +13694,17 @@
                 <member segment="215"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_45">
+            <segmentGroup id="apical_dendrite_45" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="1516"/>
             
                 <member segment="1517"/>
@@ -13116,7 +13714,17 @@
                 <member segment="1519"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_5">
+            <segmentGroup id="user5_5" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="1859"/>
             
                 <member segment="1860"/>
@@ -13124,7 +13732,17 @@
                 <member segment="1861"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_45">
+            <segmentGroup id="dendrite_45" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 27-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="27"/>
+                </annotation>
+            
                 <member segment="723"/>
             
                 <member segment="724"/>
@@ -13158,7 +13776,17 @@
                 <member segment="738"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_44">
+            <segmentGroup id="dendrite_44" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 27-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="27"/>
+                </annotation>
+            
                 <member segment="706"/>
             
                 <member segment="707"/>
@@ -13194,7 +13822,17 @@
                 <member segment="722"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_41">
+            <segmentGroup id="dendrite_41" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 20-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="20"/>
+                </annotation>
+            
                 <member segment="672"/>
             
                 <member segment="673"/>
@@ -13230,7 +13868,17 @@
                 <member segment="688"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_40">
+            <segmentGroup id="dendrite_40" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 28-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="28"/>
+                </annotation>
+            
                 <member segment="647"/>
             
                 <member segment="648"/>
@@ -13282,7 +13930,17 @@
                 <member segment="671"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_38">
+            <segmentGroup id="dendrite_38" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 33-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="33"/>
+                </annotation>
+            
                 <member segment="618"/>
             
                 <member segment="619"/>
@@ -13330,7 +13988,17 @@
                 <member segment="640"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_37">
+            <segmentGroup id="dendrite_37" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 16-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="16"/>
+                </annotation>
+            
                 <member segment="606"/>
             
                 <member segment="607"/>
@@ -13356,7 +14024,17 @@
                 <member segment="617"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_33">
+            <segmentGroup id="dendrite_33" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 45-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="45"/>
+                </annotation>
+            
                 <member segment="553"/>
             
                 <member segment="554"/>
@@ -13428,7 +14106,17 @@
                 <member segment="587"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_30">
+            <segmentGroup id="dendrite_30" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 20-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="20"/>
+                </annotation>
+            
                 <member segment="506"/>
             
                 <member segment="507"/>
@@ -13462,7 +14150,17 @@
                 <member segment="521"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_24">
+            <segmentGroup id="dendrite_24" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="390"/>
             
                 <member segment="391"/>
@@ -13476,7 +14174,17 @@
                 <member segment="395"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_23">
+            <segmentGroup id="dendrite_23" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 41-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="41"/>
+                </annotation>
+            
                 <member segment="353"/>
             
                 <member segment="354"/>
@@ -13552,7 +14260,17 @@
                 <member segment="389"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_47">
+            <segmentGroup id="apical_dendrite_47" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 10-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="10"/>
+                </annotation>
+            
                 <member segment="1545"/>
             
                 <member segment="1546"/>
@@ -13570,7 +14288,17 @@
                 <member segment="1552"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_46">
+            <segmentGroup id="apical_dendrite_46" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 33-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="33"/>
+                </annotation>
+            
                 <member segment="1520"/>
             
                 <member segment="1521"/>
@@ -13622,7 +14350,17 @@
                 <member segment="1544"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_42">
+            <segmentGroup id="apical_dendrite_42" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="1490"/>
             
                 <member segment="1491"/>
@@ -13636,7 +14374,17 @@
                 <member segment="1495"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_6">
+            <segmentGroup id="user5_6" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="1862"/>
             
                 <member segment="1863"/>
@@ -13644,7 +14392,17 @@
                 <member segment="1864"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_32">
+            <segmentGroup id="dendrite_32" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 24-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="24"/>
+                </annotation>
+            
                 <member segment="536"/>
             
                 <member segment="537"/>
@@ -13680,7 +14438,17 @@
                 <member segment="552"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_31">
+            <segmentGroup id="dendrite_31" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 19-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="19"/>
+                </annotation>
+            
                 <member segment="522"/>
             
                 <member segment="523"/>
@@ -13710,7 +14478,17 @@
                 <member segment="535"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_28">
+            <segmentGroup id="dendrite_28" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 42-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="42"/>
+                </annotation>
+            
                 <member segment="465"/>
             
                 <member segment="466"/>
@@ -13782,7 +14560,17 @@
                 <member segment="499"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_25">
+            <segmentGroup id="dendrite_25" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 8-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="8"/>
+                </annotation>
+            
                 <member segment="396"/>
             
                 <member segment="397"/>
@@ -13798,7 +14586,17 @@
                 <member segment="402"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_49">
+            <segmentGroup id="apical_dendrite_49" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 17-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="17"/>
+                </annotation>
+            
                 <member segment="1568"/>
             
                 <member segment="1569"/>
@@ -13828,7 +14626,17 @@
                 <member segment="1581"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_48">
+            <segmentGroup id="apical_dendrite_48" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 22-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="22"/>
+                </annotation>
+            
                 <member segment="1553"/>
             
                 <member segment="1554"/>
@@ -13860,7 +14668,17 @@
                 <member segment="1567"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_44">
+            <segmentGroup id="apical_dendrite_44" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 15-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="15"/>
+                </annotation>
+            
                 <member segment="1508"/>
             
                 <member segment="1509"/>
@@ -13878,7 +14696,17 @@
                 <member segment="1515"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_43">
+            <segmentGroup id="apical_dendrite_43" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 19-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="19"/>
+                </annotation>
+            
                 <member segment="1496"/>
             
                 <member segment="1497"/>
@@ -13904,7 +14732,17 @@
                 <member segment="1507"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_21">
+            <segmentGroup id="user5_21" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="2014"/>
             
                 <member segment="2015"/>
@@ -13924,7 +14762,17 @@
                 <member segment="2022"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_7">
+            <segmentGroup id="user5_7" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="1865"/>
             
                 <member segment="1866"/>
@@ -13936,7 +14784,17 @@
                 <member segment="1869"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_27">
+            <segmentGroup id="dendrite_27" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 36-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="36"/>
+                </annotation>
+            
                 <member segment="434"/>
             
                 <member segment="435"/>
@@ -14000,7 +14858,17 @@
                 <member segment="464"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_26">
+            <segmentGroup id="dendrite_26" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 35-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="35"/>
+                </annotation>
+            
                 <member segment="403"/>
             
                 <member segment="404"/>
@@ -14064,7 +14932,17 @@
                 <member segment="433"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_41">
+            <segmentGroup id="apical_dendrite_41" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 34-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="34"/>
+                </annotation>
+            
                 <member segment="1465"/>
             
                 <member segment="1466"/>
@@ -14116,13 +14994,33 @@
                 <member segment="1489"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_22">
+            <segmentGroup id="user5_22" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="2023"/>
             
                 <member segment="2024"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_16">
+            <segmentGroup id="apical_dendrite_16" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 30-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="30"/>
+                </annotation>
+            
                 <member segment="1074"/>
             
                 <member segment="1075"/>
@@ -14178,7 +15076,17 @@
                 <member segment="1100"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_8">
+            <segmentGroup id="user5_8" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="1870"/>
             
                 <member segment="1871"/>
@@ -14188,7 +15096,17 @@
                 <member segment="1873"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_40">
+            <segmentGroup id="apical_dendrite_40" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 32-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="32"/>
+                </annotation>
+            
                 <member segment="1445"/>
             
                 <member segment="1446"/>
@@ -14230,7 +15148,17 @@
                 <member segment="1464"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_23">
+            <segmentGroup id="user5_23" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="2025"/>
             
                 <member segment="2026"/>
@@ -14242,7 +15170,17 @@
                 <member segment="2029"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_15">
+            <segmentGroup id="apical_dendrite_15" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="1059"/>
             
                 <member segment="1060"/>
@@ -14274,7 +15212,17 @@
                 <member segment="1073"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_9">
+            <segmentGroup id="user5_9" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="1874"/>
             
                 <member segment="1875"/>
@@ -14284,7 +15232,17 @@
                 <member segment="1877"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_39">
+            <segmentGroup id="apical_dendrite_39" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 38-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="38"/>
+                </annotation>
+            
                 <member segment="1420"/>
             
                 <member segment="1421"/>
@@ -14336,7 +15294,17 @@
                 <member segment="1444"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_24">
+            <segmentGroup id="user5_24" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="2030"/>
             
                 <member segment="2031"/>
@@ -14346,7 +15314,17 @@
                 <member segment="2033"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_14">
+            <segmentGroup id="apical_dendrite_14" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 28-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="28"/>
+                </annotation>
+            
                 <member segment="1038"/>
             
                 <member segment="1039"/>
@@ -14390,19 +15368,49 @@
                 <member segment="1058"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_10">
+            <segmentGroup id="user5_10" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="1878"/>
             
                 <member segment="1879"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_36">
+            <segmentGroup id="apical_dendrite_36" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="1371"/>
             
                 <member segment="1372"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_25">
+            <segmentGroup id="user5_25" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="2034"/>
             
                 <member segment="2035"/>
@@ -14416,7 +15424,17 @@
                 <member segment="2039"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_9">
+            <segmentGroup id="apical_dendrite_9" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="988"/>
             
                 <member segment="989"/>
@@ -14426,11 +15444,25 @@
                 <member segment="991"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_11">
+            <segmentGroup id="user5_11" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1880"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_38">
+            <segmentGroup id="apical_dendrite_38" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 28-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="28"/>
+                </annotation>
+            
                 <member segment="1401"/>
             
                 <member segment="1402"/>
@@ -14470,7 +15502,17 @@
                 <member segment="1419"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_37">
+            <segmentGroup id="apical_dendrite_37" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 35-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="35"/>
+                </annotation>
+            
                 <member segment="1373"/>
             
                 <member segment="1374"/>
@@ -14528,7 +15570,17 @@
                 <member segment="1400"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_26">
+            <segmentGroup id="user5_26" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="2040"/>
             
                 <member segment="2041"/>
@@ -14548,11 +15600,25 @@
                 <member segment="2048"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_17">
+            <segmentGroup id="apical_dendrite_17" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1101"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_11">
+            <segmentGroup id="apical_dendrite_11" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="1007"/>
             
                 <member segment="1008"/>
@@ -14562,7 +15628,17 @@
                 <member segment="1010"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_10">
+            <segmentGroup id="apical_dendrite_10" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 20-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="20"/>
+                </annotation>
+            
                 <member segment="992"/>
             
                 <member segment="993"/>
@@ -14594,7 +15670,17 @@
                 <member segment="1006"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_8">
+            <segmentGroup id="apical_dendrite_8" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 26-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="26"/>
+                </annotation>
+            
                 <member segment="971"/>
             
                 <member segment="972"/>
@@ -14630,7 +15716,17 @@
                 <member segment="987"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_12">
+            <segmentGroup id="user5_12" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="1881"/>
             
                 <member segment="1882"/>
@@ -14646,7 +15742,17 @@
                 <member segment="1887"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_35">
+            <segmentGroup id="apical_dendrite_35" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 28-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="28"/>
+                </annotation>
+            
                 <member segment="1355"/>
             
                 <member segment="1356"/>
@@ -14680,7 +15786,17 @@
                 <member segment="1370"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_27">
+            <segmentGroup id="user5_27" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="2049"/>
             
                 <member segment="2050"/>
@@ -14694,7 +15810,17 @@
                 <member segment="2054"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_21">
+            <segmentGroup id="apical_dendrite_21" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 8-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="8"/>
+                </annotation>
+            
                 <member segment="1152"/>
             
                 <member segment="1153"/>
@@ -14708,7 +15834,17 @@
                 <member segment="1157"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_18">
+            <segmentGroup id="apical_dendrite_18" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="1102"/>
             
                 <member segment="1103"/>
@@ -14720,7 +15856,17 @@
                 <member segment="1106"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_13">
+            <segmentGroup id="apical_dendrite_13" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 21-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="21"/>
+                </annotation>
+            
                 <member segment="1023"/>
             
                 <member segment="1024"/>
@@ -14752,7 +15898,17 @@
                 <member segment="1037"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_12">
+            <segmentGroup id="apical_dendrite_12" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 18-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="18"/>
+                </annotation>
+            
                 <member segment="1011"/>
             
                 <member segment="1012"/>
@@ -14778,7 +15934,17 @@
                 <member segment="1022"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_5">
+            <segmentGroup id="apical_dendrite_5" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 12-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="12"/>
+                </annotation>
+            
                 <member segment="926"/>
             
                 <member segment="927"/>
@@ -14804,7 +15970,17 @@
                 <member segment="937"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_13">
+            <segmentGroup id="user5_13" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 14-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="14"/>
+                </annotation>
+            
                 <member segment="1888"/>
             
                 <member segment="1889"/>
@@ -14834,7 +16010,17 @@
                 <member segment="1901"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_34">
+            <segmentGroup id="apical_dendrite_34" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 38-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="38"/>
+                </annotation>
+            
                 <member segment="1332"/>
             
                 <member segment="1333"/>
@@ -14882,7 +16068,17 @@
                 <member segment="1354"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_28">
+            <segmentGroup id="user5_28" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="2055"/>
             
                 <member segment="2056"/>
@@ -14894,7 +16090,17 @@
                 <member segment="2059"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_23">
+            <segmentGroup id="apical_dendrite_23" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 32-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="32"/>
+                </annotation>
+            
                 <member segment="1187"/>
             
                 <member segment="1188"/>
@@ -14936,7 +16142,17 @@
                 <member segment="1206"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_22">
+            <segmentGroup id="apical_dendrite_22" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 45-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="45"/>
+                </annotation>
+            
                 <member segment="1158"/>
             
                 <member segment="1159"/>
@@ -14996,7 +16212,17 @@
                 <member segment="1186"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_20">
+            <segmentGroup id="apical_dendrite_20" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 33-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="33"/>
+                </annotation>
+            
                 <member segment="1130"/>
             
                 <member segment="1131"/>
@@ -15042,7 +16268,17 @@
                 <member segment="1151"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_19">
+            <segmentGroup id="apical_dendrite_19" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 30-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="30"/>
+                </annotation>
+            
                 <member segment="1107"/>
             
                 <member segment="1108"/>
@@ -15090,7 +16326,17 @@
                 <member segment="1129"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_7">
+            <segmentGroup id="apical_dendrite_7" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 19-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="19"/>
+                </annotation>
+            
                 <member segment="956"/>
             
                 <member segment="957"/>
@@ -15122,7 +16368,17 @@
                 <member segment="970"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_6">
+            <segmentGroup id="apical_dendrite_6" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="938"/>
             
                 <member segment="939"/>
@@ -15160,13 +16416,27 @@
                 <member segment="955"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_2">
+            <segmentGroup id="apical_dendrite_2" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="886"/>
             
                 <member segment="887"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_14">
+            <segmentGroup id="user5_14" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="1902"/>
             
                 <member segment="1903"/>
@@ -15178,13 +16448,27 @@
                 <member segment="1906"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_31">
+            <segmentGroup id="apical_dendrite_31" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="1285"/>
             
                 <member segment="1286"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_29">
+            <segmentGroup id="user5_29" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="2060"/>
             
                 <member segment="2061"/>
@@ -15200,7 +16484,17 @@
                 <member segment="2066"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_4">
+            <segmentGroup id="apical_dendrite_4" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 24-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="24"/>
+                </annotation>
+            
                 <member segment="911"/>
             
                 <member segment="912"/>
@@ -15232,7 +16526,17 @@
                 <member segment="925"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_3">
+            <segmentGroup id="apical_dendrite_3" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 35-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="35"/>
+                </annotation>
+            
                 <member segment="888"/>
             
                 <member segment="889"/>
@@ -15280,7 +16584,17 @@
                 <member segment="910"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_1">
+            <segmentGroup id="apical_dendrite_1" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 40-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="40"/>
+                </annotation>
+            
                 <member segment="860"/>
             
                 <member segment="861"/>
@@ -15334,7 +16648,17 @@
                 <member segment="885"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_15">
+            <segmentGroup id="user5_15" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 13-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="13"/>
+                </annotation>
+            
                 <member segment="1907"/>
             
                 <member segment="1908"/>
@@ -15360,7 +16684,17 @@
                 <member segment="1918"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_33">
+            <segmentGroup id="apical_dendrite_33" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 28-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="28"/>
+                </annotation>
+            
                 <member segment="1312"/>
             
                 <member segment="1313"/>
@@ -15402,7 +16736,17 @@
                 <member segment="1331"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_32">
+            <segmentGroup id="apical_dendrite_32" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 39-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="39"/>
+                </annotation>
+            
                 <member segment="1287"/>
             
                 <member segment="1288"/>
@@ -15454,7 +16798,17 @@
                 <member segment="1311"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_39">
+            <segmentGroup id="user5_39" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="2156"/>
             
                 <member segment="2157"/>
@@ -15468,7 +16822,17 @@
                 <member segment="2161"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_30">
+            <segmentGroup id="user5_30" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 17-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="17"/>
+                </annotation>
+            
                 <member segment="2067"/>
             
                 <member segment="2068"/>
@@ -15494,7 +16858,17 @@
                 <member segment="2078"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_0">
+            <segmentGroup id="apical_dendrite_0" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 15-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="15"/>
+                </annotation>
+            
                 <member segment="849"/>
             
                 <member segment="850"/>
@@ -15518,7 +16892,17 @@
                 <member segment="859"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_16">
+            <segmentGroup id="user5_16" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 11-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="11"/>
+                </annotation>
+            
                 <member segment="1919"/>
             
                 <member segment="1920"/>
@@ -15538,7 +16922,17 @@
                 <member segment="1927"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_40">
+            <segmentGroup id="user5_40" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="2162"/>
             
                 <member segment="2163"/>
@@ -15546,7 +16940,17 @@
                 <member segment="2164"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_26">
+            <segmentGroup id="apical_dendrite_26" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 25-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="25"/>
+                </annotation>
+            
                 <member segment="1235"/>
             
                 <member segment="1236"/>
@@ -15578,7 +16982,17 @@
                 <member segment="1249"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_25">
+            <segmentGroup id="apical_dendrite_25" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 12-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="12"/>
+                </annotation>
+            
                 <member segment="1228"/>
             
                 <member segment="1229"/>
@@ -15594,7 +17008,17 @@
                 <member segment="1234"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_31">
+            <segmentGroup id="user5_31" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 4-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="4"/>
+                </annotation>
+            
                 <member segment="2079"/>
             
                 <member segment="2080"/>
@@ -15602,7 +17026,17 @@
                 <member segment="2081"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_20">
+            <segmentGroup id="user5_20" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 72-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="72"/>
+                </annotation>
+            
                 <member segment="1979"/>
             
                 <member segment="1980"/>
@@ -15674,7 +17108,17 @@
                 <member segment="2013"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_17">
+            <segmentGroup id="user5_17" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 18-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="18"/>
+                </annotation>
+            
                 <member segment="1928"/>
             
                 <member segment="1929"/>
@@ -15704,7 +17148,17 @@
                 <member segment="1941"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_41">
+            <segmentGroup id="user5_41" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 6-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="6"/>
+                </annotation>
+            
                 <member segment="2165"/>
             
                 <member segment="2166"/>
@@ -15716,7 +17170,17 @@
                 <member segment="2169"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_27">
+            <segmentGroup id="apical_dendrite_27" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 5-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="5"/>
+                </annotation>
+            
                 <member segment="1250"/>
             
                 <member segment="1251"/>
@@ -15724,7 +17188,17 @@
                 <member segment="1252"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_32">
+            <segmentGroup id="user5_32" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 20-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="20"/>
+                </annotation>
+            
                 <member segment="2082"/>
             
                 <member segment="2083"/>
@@ -15756,7 +17230,17 @@
                 <member segment="2096"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_24">
+            <segmentGroup id="apical_dendrite_24" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 29-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="29"/>
+                </annotation>
+            
                 <member segment="1207"/>
             
                 <member segment="1208"/>
@@ -15800,7 +17284,17 @@
                 <member segment="1227"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_19">
+            <segmentGroup id="user5_19" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 30-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="30"/>
+                </annotation>
+            
                 <member segment="1965"/>
             
                 <member segment="1966"/>
@@ -15830,7 +17324,17 @@
                 <member segment="1978"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_18">
+            <segmentGroup id="user5_18" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 38-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="38"/>
+                </annotation>
+            
                 <member segment="1942"/>
             
                 <member segment="1943"/>
@@ -15878,7 +17382,17 @@
                 <member segment="1964"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_42">
+            <segmentGroup id="user5_42" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 8-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="8"/>
+                </annotation>
+            
                 <member segment="2170"/>
             
                 <member segment="2171"/>
@@ -15890,7 +17404,17 @@
                 <member segment="2174"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_30">
+            <segmentGroup id="apical_dendrite_30" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 23-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="23"/>
+                </annotation>
+            
                 <member segment="1268"/>
             
                 <member segment="1269"/>
@@ -15926,7 +17450,17 @@
                 <member segment="1284"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_29">
+            <segmentGroup id="apical_dendrite_29" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 15-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="15"/>
+                </annotation>
+            
                 <member segment="1259"/>
             
                 <member segment="1260"/>
@@ -15946,7 +17480,17 @@
                 <member segment="1267"/>
             </segmentGroup>
 
-            <segmentGroup id="apical_dendrite_28">
+            <segmentGroup id="apical_dendrite_28" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="1253"/>
             
                 <member segment="1254"/>
@@ -15960,7 +17504,17 @@
                 <member segment="1258"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_38">
+            <segmentGroup id="user5_38" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 32-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="32"/>
+                </annotation>
+            
                 <member segment="2142"/>
             
                 <member segment="2143"/>
@@ -15990,13 +17544,33 @@
                 <member segment="2155"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_33">
+            <segmentGroup id="user5_33" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="2097"/>
             
                 <member segment="2098"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_48">
+            <segmentGroup id="user5_48" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 33-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="33"/>
+                </annotation>
+            
                 <member segment="2224"/>
             
                 <member segment="2225"/>
@@ -16038,7 +17612,17 @@
                 <member segment="2243"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_43">
+            <segmentGroup id="user5_43" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 24-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="24"/>
+                </annotation>
+            
                 <member segment="2175"/>
             
                 <member segment="2176"/>
@@ -16070,7 +17654,17 @@
                 <member segment="2189"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_37">
+            <segmentGroup id="user5_37" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 18-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="18"/>
+                </annotation>
+            
                 <member segment="2132"/>
             
                 <member segment="2133"/>
@@ -16092,7 +17686,17 @@
                 <member segment="2141"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_34">
+            <segmentGroup id="user5_34" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="2099"/>
             
                 <member segment="2100"/>
@@ -16104,7 +17708,17 @@
                 <member segment="2103"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_47">
+            <segmentGroup id="user5_47" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 26-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="26"/>
+                </annotation>
+            
                 <member segment="2212"/>
             
                 <member segment="2213"/>
@@ -16130,7 +17744,17 @@
                 <member segment="2223"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_44">
+            <segmentGroup id="user5_44" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 7-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="7"/>
+                </annotation>
+            
                 <member segment="2190"/>
             
                 <member segment="2191"/>
@@ -16142,7 +17766,17 @@
                 <member segment="2194"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_36">
+            <segmentGroup id="user5_36" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 30-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="30"/>
+                </annotation>
+            
                 <member segment="2113"/>
             
                 <member segment="2114"/>
@@ -16182,7 +17816,17 @@
                 <member segment="2131"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_35">
+            <segmentGroup id="user5_35" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 15-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="15"/>
+                </annotation>
+            
                 <member segment="2104"/>
             
                 <member segment="2105"/>
@@ -16202,7 +17846,17 @@
                 <member segment="2112"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_46">
+            <segmentGroup id="user5_46" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 10-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="10"/>
+                </annotation>
+            
                 <member segment="2206"/>
             
                 <member segment="2207"/>
@@ -16216,7 +17870,17 @@
                 <member segment="2211"/>
             </segmentGroup>
 
-            <segmentGroup id="user5_45">
+            <segmentGroup id="user5_45" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 15-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="15"/>
+                </annotation>
+            
                 <member segment="2195"/>
             
                 <member segment="2196"/>
@@ -16414,9 +18078,20 @@
                 <include segmentGroup="user5_35"/>
                 <include segmentGroup="user5_46"/>
                 <include segmentGroup="user5_45"/>
+
+                <inhomogeneousParameter id="ZeroToOneOverCell" variable="p" metric="Path Length from root">
+                    <proximal translationStart="0"/>
+                    <distal normalizationEnd="1"/>
+                </inhomogeneousParameter>
+                
+
+                <inhomogeneousParameter id="PathLengthOverCell" variable="p" metric="Path Length from root">
+                </inhomogeneousParameter>
+                
             </segmentGroup>
 
-            <segmentGroup id="soma_group">
+            <segmentGroup id="soma_group" neuroLexId="GO:0043025">    <!--Soma group-->
+
                 <include segmentGroup="soma_0"/>
             </segmentGroup>
 
@@ -16645,7 +18320,8 @@
                 <include segmentGroup="soma_0"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_group">
+            <segmentGroup id="dendrite_group" neuroLexId="GO:0030425">    <!--Dendrite group-->
+
                 <include segmentGroup="user5_0"/>
                 <include segmentGroup="dendrite_15"/>
                 <include segmentGroup="dendrite_0"/>
@@ -16817,6 +18493,10 @@
                 <include segmentGroup="user5_35"/>
                 <include segmentGroup="user5_46"/>
                 <include segmentGroup="user5_45"/>
+
+                <inhomogeneousParameter id="PathLengthOverDendrites" variable="p" metric="Path Length from root">
+                </inhomogeneousParameter>
+                
             </segmentGroup>
 
             <segmentGroup id="ModelViewParmSubset_1">
@@ -17171,7 +18851,8 @@
                 <include segmentGroup="axon_0"/>
             </segmentGroup>
 
-            <segmentGroup id="axon_group">
+            <segmentGroup id="axon_group" neuroLexId="GO:0030424">    <!--Axon group-->
+
                 <include segmentGroup="axon_0"/>
             </segmentGroup>
 
@@ -18110,35 +19791,55 @@
         <biophysicalProperties id="biophys">
 
             <membraneProperties>
-
-                <channelDensity condDensity="0.05 mS_per_cm2" id="hd_soma_group" ionChannel="hd" segmentGroup="soma_group"  ion="hd" erev="-30.0 mV">    <!--Note: Units of extra parameters are not known, except if it's e or erev!!-->
-</channelDensity>
-
-                <channelDensity condDensity="-1.0E8 mS_per_cm2" id="hd_ModelViewParmSubset_5" ionChannel="hd" segmentGroup="ModelViewParmSubset_5"  ion="hd" erev="-30.0 mV">    <!--Note: Units of extra parameters are not known, except if it's e or erev!!-->
-</channelDensity>
-
-                <channelDensity condDensity="-1.0E8 mS_per_cm2" id="hd_ModelViewParmSubset_7" ionChannel="hd" segmentGroup="ModelViewParmSubset_7"  ion="hd" erev="-30.0 mV">    <!--Note: Units of extra parameters are not known, except if it's e or erev!!-->
-</channelDensity>
-
-                <channelDensity condDensity="30.0 mS_per_cm2" id="kap_axon_group" ionChannel="kap" segmentGroup="axon_group" ion="k" erev="-90.0 mV"/>
-
+                
+                <channelDensity condDensity="-1.0E8 mS_per_cm2" id="hd_ModelViewParmSubset_7" ionChannel="hd__vhalflmin73" segmentGroup="ModelViewParmSubset_7" ion="hd" erev="-30.0 mV"/>
+                
+                <channelDensity condDensity="-1.0E8 mS_per_cm2" id="hd_ModelViewParmSubset_5" ionChannel="hd__vhalflmin81" segmentGroup="ModelViewParmSubset_5" ion="hd" erev="-30.0 mV"/>
+                
+                <channelDensity condDensity="0.05 mS_per_cm2" id="hd_soma_group" ionChannel="hd__vhalflmin73" segmentGroup="soma_group" ion="hd" erev="-30.0 mV"/>
+                
                 <channelDensity condDensity="30.0 mS_per_cm2" id="kap_soma_group" ionChannel="kap" segmentGroup="soma_group" ion="k" erev="-90.0 mV"/>
-
+                
+                <channelDensity condDensity="30.0 mS_per_cm2" id="kap_axon_group" ionChannel="kap" segmentGroup="axon_group" ion="k" erev="-90.0 mV"/>
+                
                 <channelDensity condDensity="10.0 mS_per_cm2" id="kdr_all" ionChannel="kdr" ion="k" erev="-90.0 mV"/>
-
-                <channelDensity condDensity="25.0 mS_per_cm2" id="na3_ModelViewParmSubset_2" ionChannel="na3" segmentGroup="ModelViewParmSubset_2" ion="na" erev="50.0 mV">    <!--Note: Units of extra parameters are not known, except if it's e or erev!!-->
-</channelDensity>
-
+                
+                <channelDensity condDensity="25.0 mS_per_cm2" id="na3_ModelViewParmSubset_2" ionChannel="na3__ar1" segmentGroup="ModelViewParmSubset_2" ion="na" erev="50.0 mV"/>
+                
                 <channelDensity condDensity="125.0 mS_per_cm2" id="nax_OneSecGrp_SectionRef_5" ionChannel="nax" segmentGroup="OneSecGrp_SectionRef_5" ion="na" erev="50.0 mV"/>
+                
+                <channelDensity condDensity="0.0357143 mS_per_cm2" id="pas_all" ionChannel="pas" erev="-58.0 mV" ion="non_specific"/>
+                
 
-                <channelDensity condDensity="0.0357143 mS_per_cm2" id="pas_all" ionChannel="pas"  ion="non_specific" erev="-58.0 mV">    <!--Note: Units of extra parameters are not known, except if it's e or erev!!-->
-</channelDensity>    <!--kap with param: gmax = f(p) = (H(100 + ((-1) * p)) * 3.0E-7) * (1 + (p / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
-    <!--Variable Mechanisms not yet supported in NeuroML v2!!-->
-    <!--hd with param: gmax = f(p) = 5.0E-10 * (1 + ((3 * p) / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
-    <!--Variable Mechanisms not yet supported in NeuroML v2!!-->
-    <!--kad with param: gmax = f(p) = (H(p - 100) * 3.0E-7) * (1 + (p / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
-    <!--Variable Mechanisms not yet supported in NeuroML v2!!-->
+                <!--hd with param: gmax = f(p) = 5.0E-10 * (1 + ((3 * p) / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
 
+                <channelDensityNonUniform id="hd_dendrite_group" ionChannel="hd" ion="hd" erev="-30.0 mV">
+                    <variableParameter parameter="condDensity" segmentGroup="dendrite_group">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverDendrites" value="1.0E9 * 5.0E-10 * (1 + ((3 * p) / 100))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
+
+                    </variableParameter>
+                </channelDensityNonUniform>
+                
+
+                <!--kad with param: gmax = f(p) = (H(p - 100) * 3.0E-7) * (1 + (p / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
+
+                <channelDensityNonUniform id="kad_dendrite_group" ionChannel="kad" ion="k" erev="-90.0 mV">
+                    <variableParameter parameter="condDensity" segmentGroup="dendrite_group">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverDendrites" value="1.0E9 * (H(p - 100) * 3.0E-7) * (1 + (p / 100))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
+
+                    </variableParameter>
+                </channelDensityNonUniform>
+                
+
+                <!--kap with param: gmax = f(p) = (H(100 + ((-1) * p)) * 3.0E-7) * (1 + (p / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
+
+                <channelDensityNonUniform id="kap_dendrite_group" ionChannel="kap" ion="k" erev="-90.0 mV">
+                    <variableParameter parameter="condDensity" segmentGroup="dendrite_group">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverDendrites" value="1.0E9 * (H(100 + ((-1) * p)) * 3.0E-7) * (1 + (p / 100))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
+
+                    </variableParameter>
+                </channelDensityNonUniform>
+                
 
                 <spikeThresh value="0 mV"/>
 
