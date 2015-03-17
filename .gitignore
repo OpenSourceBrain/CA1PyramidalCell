@@ -21,3 +21,6 @@ generatedPSICS
 simulations
 *.bak
 *py.class
+
+/neuroConstruct/generatedNeuroML2/LEMS_Test*
+/neuroConstruct/generatedNeuroML2/html
