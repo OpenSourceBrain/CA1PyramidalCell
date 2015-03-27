@@ -2,7 +2,7 @@
 # Still in development, subject to change without notice!!
 
 target: LEMS_CA1PyramidalCell.xml 
-engine: jNeuroML
+engine: jNeuroML_NEURON
 mep: .test.mep
 experiments:
   Current clamp:
@@ -15,4 +15,4 @@ experiments:
         spike detection: 
           method: threshold
           threshold: 0
-        tolerance: 0.00073
+        tolerance: 0.0
