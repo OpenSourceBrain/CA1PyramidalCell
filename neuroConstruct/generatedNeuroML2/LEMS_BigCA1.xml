@@ -1,0 +1,71 @@
+<Lems xmlns="http://www.neuroml.org/lems/0.7.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.2  https://raw.githubusercontent.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.2.xsd">
+
+    <Target component="sim1" reportFile="simulator.props" timesFile="time.dat"/>
+
+        <!--Include standard NeuroML 2 ComponentType definitions-->
+
+    <Include file="Cells.xml"/>
+    <Include file="Networks.xml"/>
+    <Include file="Simulation.xml"/>
+
+    
+
+        <!--Include the generated NeuroML 2 files-->
+
+
+        <!--   Channel/synapse files-->
+    <Include file="hd.channel.nml"/>
+    <Include file="hd__vhalflmin73.channel.nml"/>
+    <Include file="hdmin73.channel.nml"/>
+    <Include file="kad.channel.nml"/>
+    <Include file="kap.channel.nml"/>
+    <Include file="kdr.channel.nml"/>
+    <Include file="na3.channel.nml"/>
+    <Include file="na3__ar1.channel.nml"/>
+    <Include file="nax.channel.nml"/>
+    <Include file="pas.channel.nml"/>
+        <!--   Cell files-->
+    <Include file="CA1.cell.nml"/>
+        <!--   Network file-->
+    <Include file="BigCA1.net.nml"/>
+    
+
+        <!--Note: this could be: Simulation id="sim1" ... , but Component type="Simulation" ... 
+        is used to allow validation of this file according to the LEMS schema specified above...-->
+    <Component type="Simulation" id="sim1" length="10.0ms" step="0.002ms" target="network_CA1PyramidalCell">
+        
+        <Display id="Big_v" title="CA1PyramidalCell: CA1Cell, CA1_CG, VOLTAGE, VOLTAGE, VOLTAGE, VOLTAGE, VOLTAGE" xmin="-0.001" xmax="0.011000001" ymin="-0.093" ymax="0.063" timeScale="1s">
+            <Line id="v" timeScale="1s" quantity="CA1_CG/0/CA1/0/v" scale="1 V" color="#000000"/>
+        
+            <Line id="v" timeScale="1s" quantity="CA1_CG/0/CA1/2056/v" scale="1 V" color="#ff0000"/>
+        
+            <Line id="v" timeScale="1s" quantity="CA1_CG/0/CA1/2093/v" scale="1 V" color="#0000ff"/>
+        
+            <Line id="v" timeScale="1s" quantity="CA1_CG/0/CA1/2031/v" scale="1 V" color="#009b00"/>
+        
+            <Line id="v" timeScale="1s" quantity="CA1_CG/0/CA1/14/v" scale="1 V" color="#ffc800"/>
+        </Display>
+    
+        <OutputFile id="Big_v_0_0_OF" fileName="CA1_CG_0.0.dat">
+            <OutputColumn id="v" quantity="CA1_CG/0/CA1/0/v"/>
+        </OutputFile>
+    
+        <OutputFile id="Var_22_0_2056_OF" fileName="CA1_CG_0.2056.dat">
+            <OutputColumn id="v" quantity="CA1_CG/0/CA1/2056/v"/>
+        </OutputFile>
+    
+        <OutputFile id="Var_23_0_2093_OF" fileName="CA1_CG_0.2093.dat">
+            <OutputColumn id="v" quantity="CA1_CG/0/CA1/2093/v"/>
+        </OutputFile>
+    
+        <OutputFile id="Var_24_0_2031_OF" fileName="CA1_CG_0.2031.dat">
+            <OutputColumn id="v" quantity="CA1_CG/0/CA1/2031/v"/>
+        </OutputFile>
+    
+        <OutputFile id="Var_29_0_14_OF" fileName="CA1_CG_0.14.dat">
+            <OutputColumn id="v" quantity="CA1_CG/0/CA1/14/v"/>
+        </OutputFile>
+    </Component>
+
+
+</Lems>

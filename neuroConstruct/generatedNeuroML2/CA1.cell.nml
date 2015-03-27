@@ -3,8 +3,6 @@
 
     <include href="hd__vhalflmin73.channel.nml"/>
 
-    <include href="hd__vhalflmin81.channel.nml"/>
-
     <include href="kap.channel.nml"/>
 
     <include href="kdr.channel.nml"/>
@@ -18833,6 +18831,10 @@
                 <include segmentGroup="user5_5"/>
                 <include segmentGroup="dendrite_24"/>
                 <include segmentGroup="dendrite_25"/>
+
+                <inhomogeneousParameter id="PathLengthOverDendSubset_7" variable="p" metric="Path Length from root">
+                </inhomogeneousParameter>
+                
             </segmentGroup>
 
             <segmentGroup id="OneSecGrp_SectionRef_3">
@@ -19039,6 +19041,10 @@
                 <include segmentGroup="user5_35"/>
                 <include segmentGroup="user5_46"/>
                 <include segmentGroup="user5_45"/>
+
+                <inhomogeneousParameter id="PathLengthOverDendSubset_5" variable="p" metric="Path Length from root">
+                </inhomogeneousParameter>
+                
             </segmentGroup>
 
             <segmentGroup id="OneSecGrp_SectionRef_18">
@@ -19792,10 +19798,6 @@
 
             <membraneProperties>
                 
-                <channelDensity condDensity="-1.0E8 mS_per_cm2" id="hd_ModelViewParmSubset_7" ionChannel="hd__vhalflmin73" segmentGroup="ModelViewParmSubset_7" ion="hd" erev="-30.0 mV"/>
-                
-                <channelDensity condDensity="-1.0E8 mS_per_cm2" id="hd_ModelViewParmSubset_5" ionChannel="hd__vhalflmin81" segmentGroup="ModelViewParmSubset_5" ion="hd" erev="-30.0 mV"/>
-                
                 <channelDensity condDensity="0.05 mS_per_cm2" id="hd_soma_group" ionChannel="hd__vhalflmin73" segmentGroup="soma_group" ion="hd" erev="-30.0 mV"/>
                 
                 <channelDensity condDensity="30.0 mS_per_cm2" id="kap_soma_group" ionChannel="kap" segmentGroup="soma_group" ion="k" erev="-90.0 mV"/>
@@ -19811,11 +19813,21 @@
                 <channelDensity condDensity="0.0357143 mS_per_cm2" id="pas_all" ionChannel="pas" erev="-58.0 mV" ion="non_specific"/>
                 
 
-                <!--hd with param: gmax = f(p) = 5.0E-10 * (1 + ((3 * p) / 100)) on ParameterisedGroup: PathLengthOverDendrites on: dendrite_group with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
+                <!--hd with param: gmax = f(p) = 5.0E-10 * (1 + ((3 * p) / 100)) on ParameterisedGroup: PathLengthOverDendSubset_5 on: ModelViewParmSubset_5 with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
 
-                <channelDensityNonUniform id="hd_dendrite_group" ionChannel="hd" ion="hd" erev="-30.0 mV">
-                    <variableParameter parameter="condDensity" segmentGroup="dendrite_group">
-                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverDendrites" value="1.0E9 * 5.0E-10 * (1 + ((3 * p) / 100))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
+                <channelDensityNonUniform id="hd_ModelViewParmSubset_5" ionChannel="hd" ion="hd" erev="-30.0 mV">
+                    <variableParameter parameter="condDensity" segmentGroup="ModelViewParmSubset_5">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverDendSubset_5" value="1.0E9 * 5.0E-10 * (1 + ((3 * p) / 100))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
+
+                    </variableParameter>
+                </channelDensityNonUniform>
+                
+
+                <!--hdmin73 with param: gmax = f(p) = 5.0E-10 * (1 + ((3 * p) / 100)) on ParameterisedGroup: PathLengthOverDendSubset_7 on: ModelViewParmSubset_7 with metric: Path Length from root (NO_TRANSLATION, NO_NORMALISATION), var: p-->
+
+                <channelDensityNonUniform id="hdmin73_ModelViewParmSubset_7" ionChannel="hdmin73" ion="hd" erev="-30.0 mV">
+                    <variableParameter parameter="condDensity" segmentGroup="ModelViewParmSubset_7">
+                        <inhomogeneousValue inhomogeneousParameter="PathLengthOverDendSubset_7" value="1.0E9 * 5.0E-10 * (1 + ((3 * p) / 100))"/>    <!--Note: conversion factor (1.0E9 * ) included to convert to units: GENESIS SI Units-->
 
                     </variableParameter>
                 </channelDensityNonUniform>

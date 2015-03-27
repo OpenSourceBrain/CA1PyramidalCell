@@ -1467,6 +1467,9 @@ SimConfig CA1Cell-RecordSegs will record voltage in ALL sections in the large ce
     <int>255</int>
    </object>
   </void>
+  <void property="displayOption">
+   <string>Soma solid, neurite lines</string>
+  </void>
   <void property="minRadius">
    <float>1.0</float>
   </void>
@@ -1484,18 +1487,7 @@ SimConfig CA1Cell-RecordSegs will record voltage in ALL sections in the large ce
   <void property="nativeBlocks">
    <void method="put">
     <float>10.0</float>
-    <string>print &quot;Version info: &quot;, nrnversion()
-
-
-objref strFuncs
-strFuncs = new StringFunctions()
-
-if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.substr(nrnversion(), &quot;Release 7&quot;) &gt;=0) {
-    print &quot;*******************&quot;
-    print &quot;***  NOTE: This model has only been tested so far on NEURON version 6.2!&quot;
-    print &quot;*******************&quot;
-}
-</string>
+    <string></string>
    </void>
    <void method="put">
     <float>3.0</float>
@@ -1552,7 +1544,7 @@ if(strFuncs.substr(nrnversion(), &quot;VERSION 7&quot;) &gt;=0 || strFuncs.subst
    <float>100.0</float>
   </void>
   <void property="reference">
-   <string>Sim_1099</string>
+   <string>Sim_1109</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
