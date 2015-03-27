@@ -1,11 +1,9 @@
-/neuroConstruct/generatedNeuroML2/SomaOnly_allCml.hoc
+/neuroConstruct/generatedNeuroML2/*.hoc
+/neuroConstruct/generatedNeuroML2/*.dat
 neuroConstruct/gennnml2
-/neuroConstruct/generatedNeuroML2/CG_CML_0.0.dat
 /neuroConstruct/generatedNeuroML2/simulator.props
-/neuroConstruct/generatedNeuroML2/time.dat
 /neuroConstruct/generatedNeuroML2/L
 /neuroConstruct/generatedNeuroML2/runsim.sh
-/neuroConstruct/generatedNeuroML2/CA1.hoc
 /neuroConstruct/cellMechanisms/kad/KChannel_output.xml
 *.mod
 *nrn.py
