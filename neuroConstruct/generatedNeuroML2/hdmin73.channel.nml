@@ -34,9 +34,7 @@
     <ComponentType name="hdmin73_l_tau_tau" extends="baseVoltageDepTime">
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
-        <Constant name="vhalfl" dimension="none" value="-73">
-            <!--Note: this parameter should instead be defined only once within the ionChannel!-->
-        </Constant>
+        <!--Note: this parameter (vhalfl) should ideally be defined only once within the ionChannel! Work in progress...--><Constant name="vhalfl" dimension="none" value="-73"/>
 
         <Dynamics>
             <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>
@@ -49,9 +47,7 @@
     <ComponentType name="hdmin73_l_inf_inf" extends="baseVoltageDepVariable">
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
-        <Constant name="vhalfl" dimension="none" value="-73">
-            <!--Note: this parameter should instead be defined only once within the ionChannel!-->
-        </Constant>
+        <!--Note: this parameter (vhalfl) should ideally be defined only once within the ionChannel! Work in progress...--><Constant name="vhalfl" dimension="none" value="-73"/>
 
         <Dynamics>
             <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>

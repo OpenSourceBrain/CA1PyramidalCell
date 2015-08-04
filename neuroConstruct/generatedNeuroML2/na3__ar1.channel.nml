@@ -20,7 +20,7 @@
                 
         <annotation>
             <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-                <rdf:Description rdf:about="na3__ar1">
+                <rdf:Description rdf:about="na3">
                     
                     <bqmodel:isDescribedBy xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
                         <rdf:Bag>
@@ -61,9 +61,7 @@
     <ComponentType name="na3__ar1_m_tau_tau" extends="baseVoltageDepTime">
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
-        <Constant name="ar" dimension="none" value="1.0">
-            <!--Note: this parameter should instead be defined only once within the ionChannel!-->
-        </Constant>
+        <!--Note: this parameter (ar) should ideally be defined only once within the ionChannel! Work in progress...--><Constant name="ar" dimension="none" value="1.0"/>
         <Requirement name="alpha" dimension="per_time"/>
         <Requirement name="beta" dimension="per_time"/>
         <Requirement name="rateScale" dimension="none"/>
@@ -84,9 +82,7 @@
     <ComponentType name="na3__ar1_h_tau_tau" extends="baseVoltageDepTime">
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
-        <Constant name="ar" dimension="none" value="1.0">
-            <!--Note: this parameter should instead be defined only once within the ionChannel!-->
-        </Constant>
+        <!--Note: this parameter (ar) should ideally be defined only once within the ionChannel! Work in progress...--><Constant name="ar" dimension="none" value="1.0"/>
         <Requirement name="alpha" dimension="per_time"/>
         <Requirement name="beta" dimension="per_time"/>
         <Requirement name="rateScale" dimension="none"/>
@@ -107,9 +103,7 @@
     <ComponentType name="na3__ar1_h_inf_inf" extends="baseVoltageDepVariable">
         <Constant name="TIME_SCALE" dimension="time" value="1 ms"/>
         <Constant name="VOLT_SCALE" dimension="voltage" value="1 mV"/>
-        <Constant name="ar" dimension="none" value="1.0">
-            <!--Note: this parameter should instead be defined only once within the ionChannel!-->
-        </Constant>
+        <!--Note: this parameter (ar) should ideally be defined only once within the ionChannel! Work in progress...--><Constant name="ar" dimension="none" value="1.0"/>
 
         <Dynamics>
             <DerivedVariable name="V" dimension="none" value="v / VOLT_SCALE"/>
