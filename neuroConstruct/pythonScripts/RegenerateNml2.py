@@ -29,7 +29,7 @@ else:
 
     # Some extra files have been committed for testing or to provide other LEMS/NeuroML 2 examples
     # This just pulls them from the repository, since they get wiped by the generateNeuroML2 function 
-    extra_files = ['.test.*', 'LEMS_BigCA1.xml', 'CA1.cell.nml', 'BigCA1.net.nml']
+    extra_files = ['.test.*', 'LEMS_BigCA1.xml', 'CA1.cell.nml', 'BigCA1.net.nml', 'hdmin73.channel.nml', 'na3__ar1.channel.nml', 'pas.channel.nml']
     if len(sys.argv)==2 and sys.argv[1] == "-f":
         extra_files.append('CA1PyramidalCell.net.nml')
         extra_files.append('LEMS_CA1PyramidalCell.xml')
