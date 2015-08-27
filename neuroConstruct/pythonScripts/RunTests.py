@@ -40,6 +40,7 @@ simConfigs.append("Default Simulation Configuration")
 simDt =                 0.002
 
 simulators =            ["NEURON", "GENESIS_PHYS", "GENESIS_SI", "MOOSE_PHYS", "MOOSE_SI", "PSICS"]
+simulators =            ["NEURON", "GENESIS_PHYS", "GENESIS_SI", "PSICS"]
 
 numConcurrentSims =     4
 
