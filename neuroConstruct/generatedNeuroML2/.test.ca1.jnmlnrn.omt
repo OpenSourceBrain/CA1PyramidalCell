@@ -5,7 +5,7 @@ target: LEMS_BigCA1.xml
 engine: jNeuroML_NEURON
 mep: .test.ca1.mep
 experiments:
-  Current clamp:
+  Seg0:
     observables:
       spike times:
         file: 
@@ -14,5 +14,38 @@ experiments:
           scaling: [1000, 1000]
         spike detection: 
           method: threshold
-          threshold: 0
-        tolerance: 0.0
+          threshold: -40
+        tolerance: 0.0021
+  Seg14:
+    observables:
+      spike times:
+        file: 
+          path: CA1_CG_0.14.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -40
+        tolerance: 0.000841
+  Seg2031:
+    observables:
+      spike times:
+        file: 
+          path: CA1_CG_0.2031.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -40
+        tolerance: 0.0028
+  Seg2056:
+    observables:
+      spike times:
+        file: 
+          path: CA1_CG_0.2056.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -40
+        tolerance: 9.7e-05

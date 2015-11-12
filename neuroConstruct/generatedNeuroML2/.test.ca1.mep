@@ -1,6 +1,15 @@
 system: Testing a single compartment cell
 
 experiments:
-  Current clamp:
+  Seg0:
     expected:
-      spike times: [4.816]
+      spike times: [4.43675]
+  Seg14:
+    expected:
+      spike times: [4.1665]
+  Seg2031:
+    expected:
+      spike times: [5.1875]
+  Seg2056:
+    expected:
+      spike times: [6.2374]
