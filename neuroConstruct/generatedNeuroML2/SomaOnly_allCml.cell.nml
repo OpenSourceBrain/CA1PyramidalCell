@@ -83,7 +83,7 @@
                 <channelDensity condDensity="0.0357143 mS_per_cm2" id="pasCA1_all" ionChannel="pasCA1" ion="non_specific" erev="-58.0 mV"/>
                 
 
-                <spikeThresh value="0 mV"/>
+                <spikeThresh value="0.0 mV"/>
 
                 <specificCapacitance value="1.0 uF_per_cm2"/>
 
