@@ -1,0 +1,170 @@
+{
+  "id": 494,
+  "name": "network_CA1PyramidalCell",
+  "experiments": [
+    {
+      "id": 910,
+      "aspectConfigurations": [
+        {
+          "id": 891,
+          "instance": "network_CA1PyramidalCell",
+          "watchedVariables": [
+            
+          ],
+          "modelParameters": [
+            
+          ],
+          "simulatorConfiguration": {
+            "id": 863,
+            "simulatorId": "neuronSimulator",
+            "timestep": 2.5e-5,
+            "length": 0.3,
+            "parameters": {
+              "target": "network_CA1PyramidalCell"
+            }
+          }
+        }
+      ],
+      "name": "BigCA1 - net",
+      "creationDate": 1504628396000,
+      "lastModified": 1504628396000,
+      "status": "DESIGN",
+      "simulationResults": [
+        
+      ],
+      "script": "\/script.js",
+      "isPublic": false,
+      "view": {
+        "id": 1007,
+        "viewStates": {
+          "views": {
+            "Popup1": {
+              "widgetType": 1,
+              "isWidget": true,
+              "transparentBackground": false,
+              "name": "Description",
+              "size": {
+                "height": 260.8,
+                "width": 474.8
+              },
+              "position": {
+                "left": 1311,
+                "top": 94
+              },
+              "dataType": "string",
+              "data": "Hippocampal CA1 pyramidal cell from <a target='_blank' href='http:\/\/www.ncbi.nlm.nih.gov\/pubmed\/16293591?dopt=Abstract'>M. Migliore, M. Ferrante, GA Ascoli (2005)<\/a>. The model shows how the back- and forward propagation of action potentials in the oblique dendrites of CA1 neurons could be modulated by local properties such as morphology or active conductances.<br\/><br\/> The <b>original OSB project<\/b> for this model is <a target='_blank' href='http:\/\/www.opensourcebrain.org\/projects\/ca1pyramidalcell'>here<\/a>.",
+              "componentSpecific": {
+                "customHandlers": [
+                  
+                ]
+              }
+            },
+            "Popup2": {
+              "widgetType": 1,
+              "isWidget": true,
+              "transparentBackground": false,
+              "name": "Information for network_CA1PyramidalCell",
+              "size": {
+                "height": 394,
+                "width": 490
+              },
+              "position": {
+                "left": 1306,
+                "top": 372
+              },
+              "dataType": "string",
+              "data": "Model.neuroml.network_CA1PyramidalCell",
+              "componentSpecific": {
+                "customHandlers": [
+                  {
+                    "funct": "function customHandler(node, path, widget) {\n            var n;\n            try {\n                n = eval(path);\n            } catch (ex) {\n                node = undefined;\n            }\n\n            var metaType = n.getMetaType();\n            if (metaType == GEPPETTO.Resources.VARIABLE_NODE) {\n                \/\/A plot function inside a channel\n                G.addWidget(Widgets.PLOT).plotFunctionNode(n);\n            } else if (metaType == GEPPETTO.Resources.VISUAL_GROUP_NODE) {\n                \/\/A visual group\n                n.show(true);\n            } else if (metaType == GEPPETTO.Resources.COMPOSITE_TYPE_NODE) {\n                \/\/Another composite\n                var target = widget;\n                if (GEPPETTO.isKeyPressed(\"meta\")) {\n                    target = G.addWidget(1).addCustomNodeHandler(customHandler, 'click');\n                }\n                target.setName('Information for ' + n.getId()).setData(n, [GEPPETTO.Resources.HTML_TYPE]);\n            }\n        }",
+                    "event": "click"
+                  }
+                ]
+              }
+            },
+            "Canvas1": {
+              "widgetType": "CANVAS",
+              "isWidget": false,
+              "dataType": "instances",
+              "data": [
+                "network_CA1PyramidalCell"
+              ],
+              "componentSpecific": {
+                "cameraPosition": {
+                  "x": 15.963,
+                  "y": 177.281,
+                  "z": 841.773
+                },
+                "cameraRotation": {
+                  "rx": 0,
+                  "ry": 0,
+                  "rz": 0,
+                  "radius": 842.403
+                },
+                "colorMap": {
+                  "network_CA1PyramidalCell.CA1_CG[0]": "#e5e5e5"
+                },
+                "opacityMap": {
+                  
+                },
+                "geometryTypeMap": {
+                  "network_CA1PyramidalCell.CA1_CG[0]": {
+                    "type": "cylinders"
+                  }
+                },
+                "backgroundColor": "0x101010"
+              }
+            },
+            "Tutorial1": {
+              "widgetType": "TUTORIAL",
+              "isWidget": true,
+              "dataType": "array",
+              "data": [
+                
+              ],
+              "componentSpecific": {
+                "activeTutorial": "Open Source Brain Tutorial",
+                "currentStep": 0
+              },
+              "size": {
+                "height": 300,
+                "width": 350
+              },
+              "position": {
+                "left": "50%",
+                "top": "50%"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "activeExperimentId": 910,
+  "geppettoModel": {
+    "id": 1141,
+    "url": "\/GeppettoModel.xmi",
+    "type": "GEPPETTO_PROJECT"
+  },
+  "isPublic": false,
+  "isReadOnly": false,
+  "view": {
+    "id": 1008,
+    "viewStates": {
+      "views": {
+        "Canvas1": {
+          "widgetType": "CANVAS",
+          "componentSpecific": {
+            "radiusMap": {
+              
+            },
+            "colorMap": {
+              "network_CA1PyramidalCell.CA1_CG[0]": "#e5e5e5"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+initOSBGeppetto("network", network_CA1PyramidalCell);
