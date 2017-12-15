@@ -72,8 +72,8 @@
                 "left": 1306,
                 "top": 372
               },
-              "dataType": "string",
-              "data": "Model.neuroml.network_CA1PyramidalCell",
+              "dataType": "object",
+              "data": ["Model.neuroml.network_CA1PyramidalCell", ["HTMLType"]],
               "componentSpecific": {
                 "customHandlers": [
                   {
