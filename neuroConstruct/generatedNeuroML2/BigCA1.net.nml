@@ -29,6 +29,8 @@ Cell Group: CA1_CG contains 1 cells
     
     <network id="network_CA1PyramidalCell" type="networkWithTemperature" temperature="35.0 degC">
 
+        <property tag="recommended_dt_ms" value="0.025"/>
+        <property tag="recommended_duration_ms" value="10"/>
         
 
         <population id="CA1_CG" component="CA1" type="populationList" size="1">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="network_CA1PyramidalCell">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2.0.xsd" id="network_CA1PyramidalCell">
 
     <notes>
 
-Network structure (NeuroML 2beta4) for project: CA1PyramidalCell saved with neuroConstruct v1.7.1 on: 16:14:58, 12-Mar-15
+Network structure (NeuroML 2.0) for project: CA1PyramidalCell saved with neuroConstruct v1.7.1 on: 12:10:00, 07-Feb-20
 
 Cell Group: CG_CML contains 1 cells
 
@@ -21,12 +21,13 @@ Cell Group: CG_CML contains 1 cells
     <include href="nax.channel.nml"/>
     <include href="pasCA1.channel.nml"/>
     <include href="SomaOnly_allCml.cell.nml"/>
-
-    <pulseGenerator id="SampleIClamp" delay="0.02s" duration="0.06s" amplitude="3.8E-12A"/>
-
+    <pulseGenerator id="SampleIClamp" delay="20.0ms" duration="60.0ms" amplitude="3.8E-6uA"/>
     
     <network id="network_CA1PyramidalCell" type="networkWithTemperature" temperature="35.0 degC">
 
+        <property tag="recommended_dt_ms" value="0.025"/>
+        <property tag="recommended_duration_ms" value="100"/>
+        
         
 
         <population id="CG_CML" component="SomaOnly_allCml" type="populationList" size="1">
@@ -34,7 +35,7 @@ Cell Group: CG_CML contains 1 cells
                 <property tag="color" value="0.51953125 0.203125 0.35546875"/>
             </annotation>
             <instance id="0">
-                <location x="30.157375" y="12.664655" z="57.412945"/>
+                <location x="64.65821" y="12.989494" z="95.135765"/>
             </instance>
         </population>
 
