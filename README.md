@@ -9,7 +9,7 @@ See: http://www.opensourcebrain.org/projects/ca1pyramidalcell for more details.
 
 The code in this repository is provided under the terms of the [software licence](LICENCE) included with it. If you use this model in your research, we respectfully ask you to cite the references outlined in the [CITATION](CITATION.md) file.
 
-[![Build Status](https://travis-ci.org/OpenSourceBrain/CA1PyramidalCell.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/CA1PyramidalCell) [![DOI](https://www.zenodo.org/badge/4431711.svg)](https://www.zenodo.org/badge/latestdoi/4431711)
+[![Continuous build using OMV](https://github.com/OpenSourceBrain/CA1PyramidalCell/actions/workflows/omv-ci.yml/badge.svg)](https://github.com/OpenSourceBrain/CA1PyramidalCell/actions/workflows/omv-ci.yml) [![DOI](https://www.zenodo.org/badge/4431711.svg)](https://www.zenodo.org/badge/latestdoi/4431711)
 
 
  
